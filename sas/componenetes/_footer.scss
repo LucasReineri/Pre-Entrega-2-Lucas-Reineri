@@ -1,0 +1,110 @@
+footer {
+  background-color: $color-primario;
+  ul {
+    list-style: none;
+    font-family: "Staatliches", cursive;
+    font-size: 1rem;
+    word-spacing: 0.4rem;
+    text-align: justify;
+    color: rgb(196, 188, 188);
+    li {
+      color: whitesmoke;
+      font-family: "Staatliches", cursive;
+      list-style: none;
+    }
+  }
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  list-style: none;
+  gap: 10px;
+  li {
+    text-decoration: none;
+  }
+  span {
+    color: whitesmoke;
+    font-size: 1.5rem;
+    font-family: "Staatliches", cursive;
+    font-style: initial;
+  }
+}
+.footer__div--text {
+  display: flex;
+  justify-content: center;
+  font-family: "Staatliches", cursive;
+  font-size: 1.2rem;
+  word-spacing: 0.7rem;
+  color: whitesmoke;
+  div {
+    justify-content: center;
+    height: 100%;
+  }
+}
+
+.insta {
+  object-fit: cover;
+  border-radius: 1000px;
+  width: 50px;
+  height: 50px;
+
+  &:hover {
+    transition: 0.5s ease;
+    background-image: linear-gradient(
+      rgb(234, 0, 255),
+      rgb(255, 38, 0),
+      rgb(255, 196, 0)
+    );
+  }
+}
+.insta__img {
+  height: 50px;
+  width: 50px;
+}
+.wp {
+  object-fit: cover;
+  border-radius: 1000px;
+  width: 50px;
+  height: 50px;
+  background-color: $color-primario;
+  &:hover {
+    background-color: #43ea62;
+  }
+}
+.wp__img {
+  height: 50px;
+  width: 50px;
+}
+.footer_ul {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 10px;
+  li {
+    color: whitesmoke;
+    font-family: "Staatliches", cursive;
+    list-style: none;
+  }
+}
+.text-center {
+  text-align: center;
+}
+.footer__div--logo {
+  display: flex;
+  align-self: flex-end;
+  width: 100%;
+  height: 100px;
+}
+
+.footerlogo {
+  display: flex;
+
+  align-items: center;
+}
+
+.logo__img {
+  max-width: 90%;
+  max-height: 90%;
+}

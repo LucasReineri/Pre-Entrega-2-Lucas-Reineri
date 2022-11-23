@@ -1,0 +1,544 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body::-webkit-scrollbar {
+  display: flex;
+  position: relative;
+  width: 15px;
+  opacity: 0.98;
+} /*ancho de scroll */
+body::-webkit-scrollbar-track {
+  background: rgb(63, 63, 63);
+  opacity: 0.98;
+  height: 1px;
+  /* color del area de desplazamiento */
+}
+
+body::-webkit-scrollbar-thumb {
+  /* color de la barra */
+  background-color: rgb(92, 89, 89);
+  /* dedondes de la barra(scroll) */
+  border-radius: 20px;
+  border: 3px solid rgb(68, 68, 68);
+  opacity: 0.98;
+}
+
+.nav-item a {
+  font-family: "Staatliches", cursive;
+  font-size: 2rem;
+  color: whitesmoke;
+}
+.nav-item a:hover {
+  transition: 0.5s ease;
+  color: #ec6a1f;
+}
+
+.bg-gris {
+  background-color: rgb(63, 63, 63);
+}
+
+.img-sz {
+  width: 70%;
+}
+.img-sz:hover {
+  transition: 0.5s ease;
+  filter: drop-shadow(0px 0px 20px #ec6a1f);
+}
+
+footer {
+  background-color: rgb(63, 63, 63);
+}
+footer ul {
+  list-style: none;
+  font-family: "Staatliches", cursive;
+  font-size: 1rem;
+  word-spacing: 0.4rem;
+  text-align: justify;
+  color: rgb(196, 188, 188);
+}
+footer ul li {
+  color: whitesmoke;
+  font-family: "Staatliches", cursive;
+  list-style: none;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  list-style: none;
+  gap: 10px;
+}
+.social li {
+  text-decoration: none;
+}
+.social span {
+  color: whitesmoke;
+  font-size: 1.5rem;
+  font-family: "Staatliches", cursive;
+  font-style: initial;
+}
+
+.footer__div--text {
+  display: flex;
+  justify-content: center;
+  font-family: "Staatliches", cursive;
+  font-size: 1.2rem;
+  word-spacing: 0.7rem;
+  color: whitesmoke;
+}
+.footer__div--text div {
+  justify-content: center;
+  height: 100%;
+}
+
+.insta {
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 1000px;
+  width: 50px;
+  height: 50px;
+}
+.insta:hover {
+  transition: 0.5s ease;
+  background-image: linear-gradient(rgb(234, 0, 255), rgb(255, 38, 0), rgb(255, 196, 0));
+}
+
+.insta__img {
+  height: 50px;
+  width: 50px;
+}
+
+.wp {
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 1000px;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(63, 63, 63);
+}
+.wp:hover {
+  background-color: #43ea62;
+}
+
+.wp__img {
+  height: 50px;
+  width: 50px;
+}
+
+.footer_ul {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 10px;
+}
+.footer_ul li {
+  color: whitesmoke;
+  font-family: "Staatliches", cursive;
+  list-style: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.footer__div--logo {
+  display: flex;
+  align-self: flex-end;
+  width: 100%;
+  height: 100px;
+}
+
+.footerlogo {
+  display: flex;
+  align-items: center;
+}
+
+.logo__img {
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.btn {
+  background-color: rgb(255, 115, 0);
+  border-color: rgb(183, 85, 6);
+}
+.btn:hover {
+  background-color: rgb(247, 161, 91);
+  border-color: rgb(184, 97, 26);
+}
+
+html,
+body {
+  width: auto;
+  overflow-x: hidden;
+}
+
+main {
+  background-color: whitesmoke;
+  min-height: 100vh;
+}
+
+.img-bord {
+  border-radius: 5px;
+}
+
+.container-fluid {
+  gap: 20px;
+}
+
+/*diagnostico y reparacion "presupuesto"*/
+.servicio1 {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: auto;
+}
+.servicio1 div {
+  align-items: center;
+  width: 40%;
+  height: auto;
+}
+.servicio1 div h2 {
+  display: flex;
+  justify-content: center;
+}
+.servicio1 div p {
+  margin-left: 10px;
+  font-family: sans-serif;
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+.servicio1__img img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/*mantenimiento para mobil "presupuesto*/
+.servicio1--mobil {
+  display: none;
+  justify-content: space-around;
+  width: 100%;
+  height: auto;
+}
+.servicio1--mobil div {
+  width: 40%;
+  height: auto;
+}
+.servicio1--mobil div h2 {
+  display: flex;
+  justify-content: center;
+}
+.servicio1--mobil div p {
+  margin-right: 10px;
+  font-family: sans-serif;
+  text-align: justify;
+  font-size: 1.2rem;
+}
+
+.servicio1__img--mobil img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/*fin*/
+/*mantenimiento "presupuesto"*/
+.servicio2 {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: auto;
+}
+.servicio2 div {
+  align-items: flex-end;
+  width: 40%;
+  height: auto;
+}
+.servicio2 div h2 {
+  display: flex;
+  justify-content: center;
+}
+.servicio2 div p {
+  margin-right: 10px;
+  font-family: sans-serif;
+  text-align: justify;
+  font-size: 1.2rem;
+}
+
+.servicio2__img img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/*fin-servicios*/
+/*Sucursal-centro "empresa" */
+.sucur1 {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: auto;
+}
+.sucur1 div {
+  align-items: center;
+  width: 40%;
+  height: auto;
+}
+.sucur1 div h2 {
+  display: flex;
+  justify-content: center;
+}
+.sucur1 div p {
+  margin-left: 10px;
+  font-family: sans-serif;
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+.sucur1__img img {
+  width: 80%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/**/
+.sucur1--mobil {
+  display: none;
+  justify-content: space-around;
+  width: 100%;
+  height: auto;
+}
+.sucur1--mobil div {
+  width: 40%;
+  height: auto;
+}
+.sucur1--mobil div h2 {
+  display: flex;
+  justify-content: center;
+}
+.sucur1--mobil div p {
+  margin-right: 10px;
+  font-family: sans-serif;
+  text-align: justify;
+  font-size: 1.2rem;
+}
+
+.sucur1__img--mobil img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/*sucursal sanjuan "empresa"*/
+.sucur2 {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: auto;
+}
+.sucur2 div {
+  align-items: flex-end;
+  width: 40%;
+  height: auto;
+}
+.sucur2 div h2 {
+  display: flex;
+  justify-content: center;
+}
+.sucur2 div p {
+  margin-right: 10px;
+  font-family: sans-serif;
+  text-align: justify;
+  font-size: 1.2rem;
+}
+
+.sucur2__img {
+  display: flex;
+  justify-content: center;
+}
+.sucur2__img img {
+  width: 80%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/*fin-"empresa"*/
+.conta input:focus {
+  box-shadow: 0px 0px 8px #ff7300;
+}
+.conta textarea:focus {
+  box-shadow: 0px 0px 8px #ff7300;
+}
+
+@media only screen and (min-width: 768px) {
+  header nav ul li {
+    padding-left: 80px;
+  }
+  header nav ul li:last-child {
+    padding-right: 100px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  /*Query oculta para cambiar el orden podria haberlo hecho con javascrip y ahorrar codigo pero no entiendo nada y reparacion "servicios"*/
+  .servicio1 {
+    display: none;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+  }
+  .servicio1 div {
+    width: 100%;
+    height: auto;
+  }
+  .servicio1 div p {
+    margin-left: 0%;
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    text-align: justify;
+  }
+  .servicio1__img {
+    display: flex;
+    justify-content: center;
+  }
+  .servicio1__img img {
+    width: 90%;
+    height: auto;
+    border-radius: 5px;
+  }
+  /*Query diagnostico y reparacion "servicios" */
+  .servicio1--mobil {
+    display: inline-block;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+  }
+  .servicio1--mobil div {
+    width: 100%;
+    height: auto;
+  }
+  .servicio1--mobil div p {
+    margin-right: 0%;
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    text-align: justify;
+  }
+  .servicio1__img--mobil {
+    display: flex;
+    justify-content: center;
+  }
+  .servicio1__img--mobil img {
+    width: 90%;
+    height: auto;
+    border-radius: 5px;
+  }
+  /*Query mobil mantentenimiento "servicios"*/
+  .servicio2 {
+    display: inline-block;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+  }
+  .servicio2 div {
+    width: 100%;
+    height: auto;
+  }
+  .servicio2 div p {
+    margin-right: 0%;
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    text-align: justify;
+  }
+  .servicio2__img {
+    display: flex;
+    justify-content: center;
+  }
+  .servicio2__img img {
+    width: 90%;
+    height: auto;
+    border-radius: 5px;
+  }
+  /* Query Sucursales " Empresa " */
+  .sucur1 {
+    display: none;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+  }
+  .sucur1 div {
+    width: 100%;
+    height: auto;
+  }
+  .sucur1 div p {
+    margin-left: 0%;
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    text-align: justify;
+  }
+  .sucur1__img {
+    display: flex;
+    justify-content: center;
+  }
+  .sucur1__img img {
+    width: 90%;
+    height: auto;
+    border-radius: 5px;
+  }
+  /*Query diagnostico y reparacion "servicios" */
+  .sucur1--mobil {
+    display: inline-block;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+  }
+  .sucur1--mobil div {
+    width: 100%;
+    height: auto;
+  }
+  .sucur1--mobil div p {
+    margin-right: 0%;
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    text-align: justify;
+  }
+  .sucur1__img--mobil {
+    display: flex;
+    justify-content: center;
+  }
+  .sucur1__img--mobil img {
+    width: 90%;
+    height: auto;
+    border-radius: 5px;
+  }
+  /*Query mobil mantentenimiento "servicios"*/
+  .sucur2 {
+    display: inline-block;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+  }
+  .sucur2 div {
+    width: 100%;
+    height: auto;
+  }
+  .sucur2 div p {
+    margin-right: 0%;
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    text-align: justify;
+  }
+  .sucur2__img {
+    display: flex;
+    justify-content: center;
+  }
+  .sucur2__img img {
+    width: 90%;
+    height: auto;
+    border-radius: 5px;
+  }
+}/*# sourceMappingURL=estilo1.css.map */

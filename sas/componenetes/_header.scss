@@ -1,0 +1,22 @@
+.nav-item {
+  a {
+    font-family: "Staatliches", cursive;
+    font-size: 2rem;
+    color: whitesmoke;
+    &:hover {
+      transition: 0.5s ease;
+      color: $color-secundario;
+    }
+  }
+}
+
+.bg-gris {
+  background-color: $color-primario;
+}
+.img-sz {
+  width: 70%;
+  &:hover {
+    transition: 0.5s ease;
+    filter: drop-shadow(0px 0px 20px $color-secundario);
+  }
+}

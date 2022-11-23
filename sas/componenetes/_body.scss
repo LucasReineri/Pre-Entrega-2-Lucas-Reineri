@@ -1,0 +1,225 @@
+html,
+body {
+  width: auto;
+  overflow-x: hidden;
+}
+
+main {
+  background-color: whitesmoke;
+  min-height: 100vh;
+}
+
+.img-bord {
+  border-radius: 5px;
+}
+
+.container-fluid {
+  gap: 20px;
+}
+
+/*diagnostico y reparacion "presupuesto"*/
+.servicio1 {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: auto;
+
+  div {
+    align-items: center;
+    width: 40%;
+    height: auto;
+
+    h2 {
+      display: flex;
+      justify-content: center;
+    }
+
+    p {
+      margin-left: 10px;
+      font-family: sans-serif;
+      font-size: 1.2rem;
+      text-align: justify;
+    }
+  }
+}
+
+.servicio1__img {
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+}
+
+/*mantenimiento para mobil "presupuesto*/
+.servicio1--mobil {
+  display: none;
+  justify-content: space-around;
+  width: 100%;
+  height: auto;
+
+  div {
+    width: 40%;
+    height: auto;
+
+    h2 {
+      display: flex;
+      justify-content: center;
+    }
+
+    p {
+      margin-right: 10px;
+      font-family: sans-serif;
+      text-align: justify;
+      font-size: 1.2rem;
+    }
+  }
+}
+
+.servicio1__img--mobil {
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+}
+
+/*fin*/
+/*mantenimiento "presupuesto"*/
+.servicio2 {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: auto;
+
+  div {
+    align-items: flex-end;
+    width: 40%;
+    height: auto;
+
+    h2 {
+      display: flex;
+      justify-content: center;
+    }
+
+    p {
+      margin-right: 10px;
+      font-family: sans-serif;
+      text-align: justify;
+      font-size: 1.2rem;
+    }
+  }
+}
+
+.servicio2__img {
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+}
+
+/*fin-servicios*/
+/*Sucursal-centro "empresa" */
+.sucur1 {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: auto;
+
+  div {
+    align-items: center;
+    width: 40%;
+    height: auto;
+
+    h2 {
+      display: flex;
+      justify-content: center;
+    }
+
+    p {
+      margin-left: 10px;
+      font-family: sans-serif;
+      font-size: 1.2rem;
+      text-align: justify;
+    }
+  }
+}
+
+.sucur1__img {
+  img {
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+  }
+}
+
+/**/
+.sucur1--mobil {
+  display: none;
+  justify-content: space-around;
+  width: 100%;
+  height: auto;
+
+  div {
+    width: 40%;
+    height: auto;
+
+    h2 {
+      display: flex;
+      justify-content: center;
+    }
+
+    p {
+      margin-right: 10px;
+      font-family: sans-serif;
+      text-align: justify;
+      font-size: 1.2rem;
+    }
+  }
+}
+
+.sucur1__img--mobil {
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+}
+
+/*sucursal sanjuan "empresa"*/
+.sucur2 {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: auto;
+
+  div {
+    align-items: flex-end;
+    width: 40%;
+    height: auto;
+
+    h2 {
+      display: flex;
+      justify-content: center;
+    }
+
+    p {
+      margin-right: 10px;
+      font-family: sans-serif;
+      text-align: justify;
+      font-size: 1.2rem;
+    }
+  }
+}
+
+.sucur2__img {
+  display: flex;
+  justify-content: center;
+  img {
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+  }
+}
+/*fin-"empresa"*/

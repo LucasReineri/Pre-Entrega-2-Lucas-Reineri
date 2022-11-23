@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -22,7 +22,7 @@
       type="image/x-icon"
     />
 
-    <link rel="stylesheet" href="../css/estilo.css" />
+    <link rel="stylesheet" href="../sas/estilo1.css" />
     <title>Xeon | Contacto</title>
   </head>
 
@@ -63,10 +63,10 @@
                 <a class="nav-link" href="./ventas.html">VENTAS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./presupuesto.html">SERVICIOS</a>
+                <a class="nav-link" href="./servicios.html">SERVICIOS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./quienes_somos.html">EMPPRESA</a>
+                <a class="nav-link" href="./empresa.html">EMPPRESA</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./contacto.html">CONTACTO</a>
@@ -77,8 +77,62 @@
       </nav>
     </header>
     <main>
-      <section class="mt-5 pt-5 container">
-        <h1 class="my-5 pt-5 text-center">Contacto</h1>
+      <section class="mt-5 pb-5 pt-5 container conta">
+        <h1 class="my-5 pt-5 text-center">Envianos Tu Consulta</h1>
+        <div class="row">
+          <form>
+            <div class="mb-3">
+              <label for="validationCustom01" class="form-label">Nombre</label>
+              <input
+                type="text"
+                class="form-control"
+                id="validationCustom01"
+                value=""
+                required
+              />
+              <div class="valid-feedback">Looks good!</div>
+            </div>
+            <div class="mb-3">
+              <label for="validationCustom01" class="form-label"
+                >Apellido</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="validationCustom01"
+                value=""
+                required
+              />
+              <div class="valid-feedback">Looks good!</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label"
+                >Correo Electronico</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+              />
+              <div id="emailHelp" class="form-text">
+                Nunca compartiremos tu correo con nadie.
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label"
+                >Escribe tu consulta</label
+              >
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="3"
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+        </div>
       </section>
     </main>
     <footer>

@@ -1,0 +1,8 @@
+.btn {
+  background-color: rgb(255, 115, 0);
+  border-color: rgb(183, 85, 6);
+  &:hover {
+    background-color: rgb(247, 161, 91);
+    border-color: rgb(184, 97, 26);
+  }
+}
