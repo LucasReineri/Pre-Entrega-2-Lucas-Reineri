@@ -19,8 +19,7 @@ main {
 
 /*diagnostico y reparacion "presupuesto"*/
 .servicio1 {
-  display: flex;
-  justify-content: space-around;
+  @include mix-around;
   width: 100%;
   height: auto;
 
@@ -30,8 +29,7 @@ main {
     height: auto;
 
     h2 {
-      display: flex;
-      justify-content: center;
+      @include mix-center;
     }
 
     p {
@@ -63,8 +61,7 @@ main {
     height: auto;
 
     h2 {
-      display: flex;
-      justify-content: center;
+      @include mix-center;
     }
 
     p {
@@ -87,8 +84,7 @@ main {
 /*fin*/
 /*mantenimiento "presupuesto"*/
 .servicio2 {
-  display: flex;
-  justify-content: space-around;
+  @include mix-around;
   width: 100%;
   height: auto;
 
@@ -98,14 +94,13 @@ main {
     height: auto;
 
     h2 {
-      display: flex;
-      justify-content: center;
+      @include mix-center;
     }
 
     p {
       margin-right: 10px;
-      font-family: sans-serif;
-      text-align: justify;
+      text-align: map-get($estilos, fuente);
+      text-align: map-get($estilos, justificado);
       font-size: 1.2rem;
     }
   }
@@ -122,8 +117,7 @@ main {
 /*fin-servicios*/
 /*Sucursal-centro "empresa" */
 .sucur1 {
-  display: flex;
-  justify-content: space-around;
+  @include mix-around;
   width: 100%;
   height: auto;
 
@@ -133,8 +127,7 @@ main {
     height: auto;
 
     h2 {
-      display: flex;
-      justify-content: center;
+      @include mix-center;
     }
 
     p {
@@ -166,8 +159,7 @@ main {
     height: auto;
 
     h2 {
-      display: flex;
-      justify-content: center;
+      @include mix-center;
     }
 
     p {
@@ -189,8 +181,7 @@ main {
 
 /*sucursal sanjuan "empresa"*/
 .sucur2 {
-  display: flex;
-  justify-content: space-around;
+  @include mix-around;
   width: 100%;
   height: auto;
 
@@ -200,8 +191,7 @@ main {
     height: auto;
 
     h2 {
-      display: flex;
-      justify-content: center;
+      @include mix-center;
     }
 
     p {
@@ -214,8 +204,7 @@ main {
 }
 
 .sucur2__img {
-  display: flex;
-  justify-content: center;
+  @include mix-center;
   img {
     width: 80%;
     height: auto;

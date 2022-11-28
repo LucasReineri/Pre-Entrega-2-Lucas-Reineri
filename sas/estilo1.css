@@ -266,7 +266,7 @@ main {
 }
 .servicio2 div p {
   margin-right: 10px;
-  font-family: sans-serif;
+  text-align: sans-serif;
   text-align: justify;
   font-size: 1.2rem;
 }
